@@ -1,4 +1,4 @@
-package model;
+package com.im.ms_products.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,9 +13,10 @@ import lombok.Setter;
 @Builder
 public class Product {
 
-    private Integer cod;
-    private Integer name;
+    private Integer code;
+    private String name;
     private String category;
     private Double price;
     private Integer stock;
+
 }
